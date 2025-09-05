@@ -1,0 +1,27 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build rxnmech_app",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "-g",
+        "src/main.cpp",
+        "src/func.cpp",
+        "src/atom.cpp",
+        "src/constants.cpp",
+        "src/molecule.cpp",
+        "src/main_func.cpp",
+        "src/specific_mol.cpp",
+        "-Iexternal/Eigen", // 필요시
+        "-Isrc",
+        "-o",
+        "build/rxnmech_app.exe"
+      ],
+      "group": "build",
+      "problemMatcher": ["$gcc"],
+      "detail": "컴파일 및 링크"
+    }
+  ]
+}
