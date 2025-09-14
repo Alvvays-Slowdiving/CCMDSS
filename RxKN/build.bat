@@ -1,5 +1,5 @@
 @echo off
-REM --- 이 스크립트는 rxnmech 프로젝트를 빌드하고 실행합니다. ---
+REM --- 이 스크립트는 RxKN 프로젝트를 빌드하고 실행합니다. ---
 REM 사용법:
 REM   build.bat                    (기본값: 릴리즈(-O3) 모드로 빌드 및 실행)
 REM   build.bat release              (릴리즈(-O3) 모드로 빌드 및 실행)
@@ -65,12 +65,12 @@ echo Build successful.
 cd ..
 
 REM build.bat에 전달된 나머지 모든 인자를 %* 로 받아서 실행 파일에 그대로 전달
-echo Running the application: build\rxnmech_app.exe %*
+echo Running the application: build\RxKN_app.exe %*
 echo --------------------------------------------------
 
 REM --- 여기가 수정된 부분 ---
 REM %BUILD_DIR% 변수 대신 직접 경로를 지정합니다.
-build\rxnmech_app.exe %*
+build\RxKN_app.exe %*
 
 echo --------------------------------------------------
 echo.
