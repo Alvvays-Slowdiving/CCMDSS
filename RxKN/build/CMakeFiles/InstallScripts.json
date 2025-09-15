@@ -1,7 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"C:/cpp_project/rxnmech/build/cmake_install.cmake"
-	],
-	"Parallel" : false
-}

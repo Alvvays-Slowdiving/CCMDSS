@@ -1,3 +1,0 @@
-C:/cpp_project/rxnmech/build/CMakeFiles/rxnmech_app.dir
-C:/cpp_project/rxnmech/build/CMakeFiles/edit_cache.dir
-C:/cpp_project/rxnmech/build/CMakeFiles/rebuild_cache.dir
