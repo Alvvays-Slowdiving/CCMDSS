@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# --- 이 스크립트는 rxnmech 프로젝트를 빌드하고 실행합니다. ---
+# --- 이 스크립트는 RxKN 프로젝트를 빌드하고 실행합니다. ---
 # 사용법:
 #    ./build.sh                  (기본값: 릴리즈(-O3) 모드로 빌드 및 실행)
 #    ./build.sh release          (릴리즈(-O3) 모드로 빌드 및 실행)
@@ -78,8 +78,8 @@ echo "Build successful."
 
 # build.sh에 전달된 나머지 모든 인자를 $@ 로 받아서 실행 파일에 그대로 전달
 # 실행 파일 경로는 CMakeLists.txt에 정의된 프로젝트 이름에 따라 달라질 수 있습니다.
-# 여기서는 예시로 rxnmech_app을 사용합니다.
-APP_NAME="rxnmech_app" # CMakeLists.txt의 add_executable 이름과 일치해야 합니다.
+# 여기서는 예시로 RxKN_app을 사용합니다.
+APP_NAME="RxKN_app" # CMakeLists.txt의 add_executable 이름과 일치해야 합니다.
 APP_PATH="${BUILD_DIR}/${APP_NAME}"
 
 echo "Running the application: ${APP_PATH} $@"
